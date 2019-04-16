@@ -10,4 +10,4 @@ var reasons = ['Chick flicks make me emotional',
 function new_reason(){
 var random_number = Math.floor(Math.random()*(reasons.length));
 }
-document.getElementByID('reason_display').innerHTML = reasons[random_number]
+document.getElementById('reason_display').innerHTML = reasons[random_number]
